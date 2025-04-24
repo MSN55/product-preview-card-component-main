@@ -1,0 +1,151 @@
+@media (min-width:375px) and (max-width:800px) {
+    
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 950px;
+        width: 500px;
+       
+    }
+    .image{
+        width: 100%;
+        height: 50%; 
+        overflow: hidden;
+        border-radius: 20px 20px 0 0;
+    }
+
+    .image img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .text{
+        width: 100%;
+        height: 50%;
+    }
+    .name{
+        width: 90%;
+    }
+
+    .not{
+        width: 80%;
+    }
+    .befor{
+    
+        right:80px;
+    }
+    .cart{
+        margin-left: 0;
+    }
+}
+
+
+/* Desktop */
+@media (min-width:801px){
+   
+    
+   
+    .container{
+        margin-top: 200px;
+        margin-left: 150px;
+        width: 800px;
+        height: 640px;
+        display: flex;
+        justify-content: center;
+        background-color: hsl(0, 0%, 100%);
+        border-radius: 20px;
+    
+    }
+    
+    .image{
+        width: 50%;
+        height: 100%; 
+        overflow: hidden;
+        border-radius: 20px 0 0 20px;
+    
+    
+    }
+    
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    
+    .text{
+        width: 50%;
+        margin: 40px;
+    
+    }
+    .text .per{
+        font-family: "Montserrat", sans-serif;
+        letter-spacing: 10px;
+        font-weight: 700;
+        color: hsl(228, 12%, 48%);
+    
+    }
+    
+    
+    .name{
+        margin-top: 40px;
+        width: 80%;
+        font-family: "Fraunces", serif;
+        font-size: 50px;
+        font-weight: 700;
+    }
+    
+    .not{
+        margin-top: 20px;
+        width: 90%;
+        font-size: 20px;
+        font-family: "Montserrat", sans-serif;
+        color: hsl(228, 12%, 48%);
+    
+    
+    }
+    
+    .price{
+        width: 80%;
+        position: relative;
+    }
+    .aftar{
+        margin-top: 20px ;
+        font-size: 50px;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 700;
+        color: hsl(158, 36%, 37%);
+    
+    
+    }
+    .befor{
+        text-decoration: line-through;
+        position: absolute;
+        right: 0; 
+        top: 18px;   
+        font-size: 20px;
+        font-family: "Montserrat", sans-serif;
+        color: hsl(228, 12%, 48%);
+    
+    
+    }
+    
+    .cart{
+        width: 80%;
+        height: 60px;
+        background-color:hsl(158, 36%, 37%);
+        color: white;
+        text-align: center;
+        line-height: 2.5;
+        margin-top: 30px;
+        margin-left: 10%;
+        border-radius: 10px;
+        font-size: 25px;
+        font-weight: 500;
+    }
+}
+
+
+
